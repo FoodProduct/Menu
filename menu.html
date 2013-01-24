@@ -1,0 +1,119 @@
+<html lang='en'>
+
+<head>
+	<title>What's for Dinner?</title>
+	<link rel="stylesheet" href="./css/menu.css" />
+	<link rel="stylesheet" href="./css/jquery-ui-1.9.2.custom.min.css" />
+	<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="./js/menu.js"></script>
+	
+</head>
+
+<body>
+<article>
+<!--<div class="wrapper">-->
+	<h1>El Restaurante de David</h1>
+	
+	<div id="check" class="leftHalf">
+		<div id="innerCheck">
+			<h3>Le Cheque</h3>
+			
+			<div id="chosenItems">
+				<div class="header">
+					Item
+				</div>
+				<div class="header">
+					Cost
+				</div>
+				<br />
+				<div id="chosenBody">
+				
+				</div>
+			</div>
+			
+			<div id="totals">
+				<div class="title"><strong>Pre-tax total:</strong></div>
+				<div>$<span id="preTaxTotal">0.00</span></div>
+				
+				<div class="title" id="taxLabel"><strong>Tax</strong></div>
+				<div>$<span id="taxAmount">0.00</span></div>
+				
+				<div class="title"><strong>Post-tax total:</strong></div>
+				<div>$<span id="postTaxTotal">0.00</span></div>
+			</div>
+			
+			<div id="gratuity">
+				<div class="center bold">Suggested Gratuity</div>
+				<br />
+				<div id="tipBody">
+				
+				</div>
+			</div>
+			<div class="center">
+				<button id="clearButton">Clear</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="menu" class="rightHalf">
+		<div id="innerMenu">
+		<h3>Le Menu</h3>
+		
+		<ul class='menu'>
+			<li>
+				<span class='title'>FROZEN MANDARIN SOUR kumquat, meringue scented with angostura bitters</span>
+				<span class='cost'>10.50</span>
+			</li>
+			<li>
+				<span class='title'>OYSTERS UNDER GLASS oysters, yuzu, rau ram</span>
+				<span class='cost'>15.30</span>
+			</li>
+			<li>
+				<span class='title'>BEET AND GOAT CHEESE TART rye, dill</span>
+				<span class='cost'>6.75</span>
+			</li>
+			<li>
+				<span class='title'>DUNGENESS CRAB + BEEF TENDON SOUP asian pear, finger lime, cilantro</span>
+				<span class='cost'>9.40</span>
+			</li>
+			<li>
+				<span class='title'>NEW OLIVE OIL brassica, charred onion broth</span>
+				<span class='cost'>7.60</span>
+			</li>
+			<li>
+				<span class='title'>MONTEREY BAY ABALONE grains, fresh seaweeds, raw turnip</span>
+				<span class='cost'>45.24</span>
+			</li>
+			<li>
+				<span class='title'>GRASS-FED VEAL chicories, caper berry, seville orange</span>
+				<span class='cost'>32.30</span>
+			</li>
+			<li>
+				<span class='title'>TOMME DOLCE fruit and vegetable leathers, apple</span>
+				<span class='cost'>13.32</span>
+			</li>
+			<li>
+				<span class='title'>FROZEN LIME MARSHMALLOW coal toasted meringue</span>
+				<span class='cost'>6.32</span>
+			</li>
+			<li>
+				<span class='title'>WINTER FRUIT SALAD citron, white chocolate, absinthe</span>
+				<span class='cost'>8.10</span>                    
+			</li>
+			<li>
+				<span class='title'>SPICED BABA dates, yogurt, carob, coffee</span>
+				<span class='cost'>9.43</span>                    
+			</li>
+			<li>
+				<span class='title'>Coffee</span>
+				<span class='cost'>0.50</span>                    
+			</li>
+		</ul>
+		</div>
+	</div>
+<!--</div>-->
+	
+</article>
+</body>
+</html>
